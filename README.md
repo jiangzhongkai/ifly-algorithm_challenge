@@ -1,5 +1,5 @@
 # ifly-algorithm_challenge
-讯飞移动反欺诈算法竞赛,目前分数只有94.28
+讯飞移动反欺诈算法竞赛,目前分数只有94.41
 
 1、GBDT、xgboost对比分析：
 
