@@ -1,5 +1,5 @@
 # ifly-algorithm_challenge
-讯飞移动反欺诈算法竞赛,目前分数只有94.41
+讯飞移动反欺诈算法竞赛,目前分数只有94.48
 
 讯飞移动反欺诈算法数据竞赛网址： http://challenge.xfyun.cn/2019/gamedetail?type=detail/mobileAD
 
