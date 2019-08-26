@@ -107,6 +107,17 @@
 ##### 3. stacking: 初级学习器，次级学习器
 直接借用别人的图:
   ![img](https://github.com/jiangzhongkai/ifly-algorithm_challenge/blob/master/img/stacking.jpg)
+  
+  根据上图分析一下stacking具体步骤：
+　　- [x] TrainingData进行5-fold分割，正好生成5个model，每个model预测训练数据的1/5部分，最后合起来正好是一个完整的训练集Predictions，行数与TrainingData一致。
+
+　　- [x] TestData数据，model1-model5每次都对TestData进行预测，形成5份完整的Predict（绿色部分），最后对这个5个Predict取平均值，得到测试集Predictions。
+
+　　- [x] 上面的1）与2）步骤只是用了一种算法，如果用三种算法，就是三份“训练集Predictions与测试集Predictions”，可以认为就是形成了三列新的特征，训练集Predictions与测试集Predictions各三列。
+
+　　- [x] 3列训练集Predictions+TrainingData的y值，就形成了新的训练样本数据；测试集Predictions的三列就是新的测试数据。
+
+　　- [x] 利用meta model（模型上的模型），其实就是再找一种算法对上述新数据进行建模预测，预测出来的数据就是提交的最终数据
 ##### 4. blending
 未完待续。。。。
 
