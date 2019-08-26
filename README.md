@@ -106,7 +106,7 @@
 
 ##### 3. stacking: 初级学习器，次级学习器
 直接借用别人的图:
-  ![img](https://images2015.cnblogs.com/blog/1102791/201707/1102791-20170710101452884-712087825.jpg)
+  ![img](https://github.com/jiangzhongkai/ifly-algorithm_challenge/blob/master/img/stacking.jpg)
 ##### 4. blending
 未完待续。。。。
 
